@@ -1,0 +1,12 @@
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\LinkEntities\bin\Debug\LinkEntities.dll.config
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\LinkEntities\bin\Debug\LinkEntities.dll
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\LinkEntities\bin\Debug\LinkEntities.pdb
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\LinkEntities\bin\Debug\EntityFramework.dll
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\LinkEntities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\LinkEntities\bin\Debug\EntityFramework.xml
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\LinkEntities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\LinkEntities\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\LinkEntities\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\LinkEntities\obj\Debug\LinkEntities.dll
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\LinkEntities\obj\Debug\LinkEntities.pdb
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\LinkEntities\obj\Debug\LinkEntities.csprojResolveAssemblyReference.cache

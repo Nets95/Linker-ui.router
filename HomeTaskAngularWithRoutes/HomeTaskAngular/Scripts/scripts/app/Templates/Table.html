@@ -1,0 +1,27 @@
+﻿
+<div style="padding-top:25px; margin-left: 570px;">
+    <h1 style="clear:both">Links of User</h1>
+</div>
+<div ng-app="linkModule" style="padding-top:50px; margin: 0 auto;" >
+    
+    <div ng-controller="linkController as alias">
+        <table class="table-bordered" align="center" width="500" height="200" style=" clear: both; margin:0 auto;">
+            <thead>
+                <tr>
+                    <td align="center"><h3>LinkTitle</h3></td>
+                    <td align="center"><h3>CurrentDate</h3></td>
+                    <td align="center"><h3>Edit</h3></td>
+                    <td align="center"><h3>Remoove</h3></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="link in alias.links | orderBy : 'LinkTitle' | filter : alias.linkFilter ">
+                    <td align="center"><a>{{link.LinkTitle}}</a></td>
+                    <td align="center">{{link.CurrentDate | date : "medium" }}</td>
+                    <td align="center"><button  ng-disabled="true" class="btn btn-danger btn-xs"><i class="glyphicon  glyphicon-edit"></i></button></td>
+                    <td  align="center"><button  ng-disabled="true" class="btn btn-xs btn-info"><i class="glyphicon  glyphicon-remove"></i></button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

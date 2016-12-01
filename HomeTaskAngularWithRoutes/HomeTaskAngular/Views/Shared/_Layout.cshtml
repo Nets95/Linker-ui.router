@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title – приложение ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/Site.css")
+
+</head>
+<body>
+    
+    @section Styles{
+        <link rel="stylesheet" href="~/Content/bootstrap.css" />
+        <link rel="stylesheet" href="~/Content/Site.css" />
+    }
+   
+  
+    <script src="~/Scripts/scripts/libs/angular.js"></script>
+    @RenderSection("HeadScripts", required: false)
+   
+    @Scripts.Render("~/bundles/bootstrap")
+
+    @RenderBody()
+
+    @RenderSection("FootScripts", false)
+    <div id="adress">
+        <hr>
+        <p> 1600 Pennsylvania Ave NW, Washington, DC 20500, USA</p>
+        <p> Powered by Ivan Kupranets&reg</p>
+    </div>
+</body>
+</html>

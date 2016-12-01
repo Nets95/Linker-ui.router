@@ -1,0 +1,10 @@
+﻿<div ng-app="linkModule">
+    <div ng-controller="linkController as alias">
+        <div style="padding-top:150px; margin: 0 auto; width:350px">
+            <h1>Add new link:</h1>
+            <input placeholder="Input link title" ng-model="alias.newLinkTitle" type="text" required/>
+            <button ng-click="alias.addNewLink()" ng-disabled="!alias.disableAddButton()" class="btn"><a href="#/table">Save</a></button>
+            <button ng-click="alias.isAddEnabled = false" class="btn"><a href="#/table">Cancel</a></button>
+        </div><br>
+    </div>
+</div>

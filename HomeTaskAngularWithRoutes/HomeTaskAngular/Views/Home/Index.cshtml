@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+@section HeadScripts
+{
+    <script src="~/Scripts/scripts/libs/angular-route.js"></script> 
+    <script src="~/Scripts/scripts/libs/angular-ui-router.js"></script>
+    <script src="~/Scripts/scripts/app/Module.js"></script>
+    <script src="~/Scripts/scripts/app/Controllers.js"></script>
+    <script src="~/Scripts/scripts/app/Service.js"></script>
+}
+
+
+  
+    <div ng-app="linkModule">
+        <div  ng-controller="linkController as alias">
+            <div class="header">
+                <div class="container">
+                    <div class="logo">
+                        <h1><a href="#table">Linker</a></h1>
+                    </div>
+                    <div class="nav">
+                        <ul>
+                            <li><a ui-sref ="table">Home</a></li>
+                            <li><a ui-sref ="search">Search or Edit</a></li>
+                            <li><a ui-sref ="add">Add</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <ui-view></ui-view> 
+        </div>
+</div>
+
+
+           
+        
+  
+
+

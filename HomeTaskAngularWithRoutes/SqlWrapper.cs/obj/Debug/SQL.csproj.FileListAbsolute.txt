@@ -1,0 +1,7 @@
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\SqlWrapper.cs\bin\Debug\SqlWrapper.cs.dll
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\SqlWrapper.cs\bin\Debug\SqlWrapper.cs.pdb
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\SqlWrapper.cs\bin\Debug\LinkEntities.dll
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\SqlWrapper.cs\bin\Debug\LinkEntities.pdb
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\SqlWrapper.cs\obj\Debug\SQL.csprojResolveAssemblyReference.cache
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\SqlWrapper.cs\obj\Debug\SqlWrapper.cs.dll
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\SqlWrapper.cs\obj\Debug\SqlWrapper.cs.pdb

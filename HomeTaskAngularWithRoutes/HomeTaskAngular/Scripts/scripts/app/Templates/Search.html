@@ -1,0 +1,32 @@
+﻿<div ng-app="linkModule">
+    <div ng-controller="linkController as alias">
+        <div style="padding-top:50px; margin: 0 auto; width:250px">
+            <label form="linkFilter">Search</label>
+            <input type="text" ng-model="alias.linkFilter" class="form-control"><br>
+        </div>
+        <table class="table-bordered" align="center" width="500" height="200" style=" clear: both; margin:0 auto;">
+            <thead>
+                <tr>
+                    <td align="center"><h3>LinkTitle</h3></td>
+                    <td align="center"><h3>CurrentDate</h3></td>
+                    <td align="center"><h3>Edit</h3></td>
+                    <td align="center"><h3>Remoove</h3></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="link in alias.links | orderBy : 'LinkTitle' | filter : alias.linkFilter ">
+                    <td align="center"><a>{{link.LinkTitle}}</a></td>
+                    <td align="center">{{link.CurrentDate | date : "medium" }}</td>
+                    <td align="center"><button ng-click="alias.enableEdit(link)" ng-disabled="false" class="btn btn-danger btn-xs"><i class="glyphicon  glyphicon-edit"></i></button></td>
+                    <td ng-click="alias.remooveLink(link)" align="center"><button ng-disabled="false" class="btn btn-xs btn-info"><i class="glyphicon  glyphicon-remove"></i></button></td>
+                </tr>
+            </tbody>
+        </table>
+        <div ng-show="alias.isEditEnabled" style="padding-top:10px; padding-bottom:10px; margin: 0 auto; width:350px">
+            <h1>Edit Links</h1>
+            <input ng-model="alias.editLinkTitle" type="text" required>
+            <button ng-click="alias.updateLink(alias.currentEditedLink, alias.editLinkTitle)" ng-disabled="!alias.disableEditButton()" ng-hide="!alias.isEditEnabled" class="btn"><a href="#table">Update</a></button>
+            <button ng-click="alias.isEditEnabled = false" ng-hide="!alias.isEditEnabled" class="btn"><a href="#table">Cancel</a></button>
+        </div>
+    </div>
+</div>

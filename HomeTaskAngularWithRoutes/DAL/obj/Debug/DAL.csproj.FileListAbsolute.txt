@@ -1,0 +1,11 @@
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\DAL\bin\Debug\DAL.dll
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\DAL\bin\Debug\DAL.pdb
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\DAL\bin\Debug\LinkEntities.dll
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\DAL\bin\Debug\LinkEntities.pdb
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\DAL\obj\Debug\DAL.dll
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\DAL\obj\Debug\DAL.pdb
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\DAL\bin\Debug\Parser.dll
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\DAL\bin\Debug\SqlWrapper.cs.dll
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\DAL\bin\Debug\Parser.pdb
+C:\Users\John\Desktop\Laba.Net\HomeTaskAngular\DAL\bin\Debug\SqlWrapper.cs.pdb
